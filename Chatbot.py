@@ -7,15 +7,15 @@ import random
 import pyttsx3
 import requests
 import mysql.connector  # Import the MySQL Connector
-import pprint
-import google.generativeai as palm
+#import pprint
+#import google.generativeai as palm
 
 api_key= "Enter your API key here"
 mysql_config = {
-    'user': 'Enter your username here',  # Your MySQL username
-    'password': 'Enter your password here',  # Your MySQL password
-    'host': 'Enter host name',  # Example: 'localhost'
-    'database': 'Enter database name',  # Your MySQL database name
+    'user': 'root',  # Your MySQL username
+    'password': 'soumya',  # Your MySQL password
+    'host': 'localhost',  # Example: 'localhost'
+    'database': 'chatbot_chats',  # Your MySQL database name
 }
 chat_history_table = "conversations"  # MySQL table to store chat history
 
